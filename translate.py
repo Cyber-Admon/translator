@@ -7,8 +7,8 @@ def translate_text(text, source_lang, target_lang):
     return translated_text.text
 
 source_text = input("Enter the text to translate: ")
-source_lang = input("Enter the source language (e.g., en, fr, es): ")
-target_lang = input("Enter the target language (e.g., en, fr, es): ")
+source_lang = input("Enter the source language (en, fr, es): ")
+target_lang = input("Enter the target language (en, fr, ar, es, ja, ko): ")
 
 translated_text = translate_text(source_text, source_lang, target_lang)
 
